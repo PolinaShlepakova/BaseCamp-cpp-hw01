@@ -1,3 +1,6 @@
+#ifndef _PERSON_H_
+#define _PERSON_H_
+
 #include <string>
 
 class Person {
@@ -12,3 +15,5 @@ public:
 	void Show() const; // firstname lastname format
 	void FormalShow() const; // lastname, firstname format
 };
+
+#endif // _PERSON_H_

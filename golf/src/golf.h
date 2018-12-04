@@ -1,3 +1,6 @@
+#ifndef _GOLF_H_
+#define _GOLF_H_
+
 constexpr int Len = 40;
 struct golf
 {
@@ -21,3 +24,5 @@ void handicap(golf & g, int hc);
 
 // function displays contents of golf structure
 void showGolf(const golf& g);
+
+#endif // _GOLF_H_
